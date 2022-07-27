@@ -3,7 +3,6 @@ stages:
 
 test:
     stage: test
-    image: golang:latest
     tags:
         - test
     script:
