@@ -58,10 +58,39 @@
 #             | example.2f.com    | not123456 | invalid credential |
 
 
-Feature: Redirect to previous session
+# Feature: Redirect to previous session
 
-    Scenario: Successful redirect
-        Given I am in sso page
-        When I successful logged in
-        Then I should redirect back to where I where
-        
+#     Scenario: Successful redirect
+#         Given I am in sso page
+#         When I successful logged in
+#         Then I should redirect back to where I where
+
+# - sucess - 
+#
+# Feature: Logout
+#     As a user
+#     i want to logout of the system
+#     so that I can have clear session on particular device
+
+#     Scenario: Sucessful Logout
+#         Given I am logged in user
+#         When I logout
+#         Then I all my session should be cleared on the device I am on
+
+Feature: Refresh Token
+    as a user
+    I want my  acess token to be refreshed 
+    so that I do not have to authenticate every time my access token expires
+
+    Scenario: Refresh Token is not expired
+        Given I have expired access token
+        And I have refresh token
+        When refresh the access token
+        Then I should get new access token
+    
+    Scenario: Refresh Token is  expired
+        Given I have expired access token
+        And I have refresh token
+        When refresh the access token
+        Then I should get redirected to reauthenticate
+

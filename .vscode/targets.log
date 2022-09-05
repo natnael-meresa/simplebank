@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 27 08:33:16 2022
+# Make data base, printed on Mon Sep  5 15:18:22 2022
 
 # Variables
 
@@ -17,21 +17,29 @@ GDK_BACKEND = x11
 # environment
 LC_ALL = C
 # environment
+NO_AT_BRIDGE = 1
+# environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
 # environment
 LC_NAME = am_ET
 # environment
 LC_NUMERIC = am_ET
 # environment
-VSCODE_CWD = /home/twof-naty-go/Documents/exercises/simplebank
+VSCODE_CWD = /home/naty-2f/Documents/exercise/exercises/simplebank
+# environment
+WINDOWPATH = 2
 # environment
 LC_ADDRESS = am_ET
 # default
 MAKE_COMMAND := make
 # environment
 QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/naty-2f/go
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -39,35 +47,35 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/twof-naty-go/Documents/exercises/simplebank
+PWD = /home/naty-2f/Documents/exercise/exercises/simplebank
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/twof-naty-go
+OLDPWD = /home/naty-2f/Documents/exercise/exercises
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/twof-naty-go/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/naty-2f/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.YU56P1
+XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.101
+GNOME_TERMINAL_SERVICE = :1.102
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/twof-naty-go/Documents/exercises/simplebank
+CURDIR := /home/naty-2f/Documents/exercise/exercises/simplebank
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
@@ -79,8 +87,6 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
-WAYLAND_DISPLAY = wayland-0
-# environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -91,13 +97,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 10143
+VSCODE_PID = 3577
 # environment
-XDG_SESSION_TYPE = wayland
+XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/natypc:@/tmp/.ICE-unix/3547,unix/natypc:/tmp/.ICE-unix/3547
+SESSION_MANAGER = local/naty-2f-laptop:@/tmp/.ICE-unix/2315,unix/naty-2f-laptop:/tmp/.ICE-unix/2315
 # automatic
 *F = $(notdir $*)
 # environment
@@ -119,15 +125,17 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9d9fe466_5faf_44c4_96d7_4b4bb2c345fb
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/61fed391_e6ed_4903_84c4_017a07c25a56
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/twof-naty-go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/usr/bin/air:/home/twof-naty-go/go/bin
+PATH = /home/naty-2f/go/bin:$(go env GOPATH)/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
 # default
 MAKEFILES := 
 # environment
@@ -137,9 +145,9 @@ LC_MONETARY = am_ET
 # environment
 LC_TIME = am_ET
 # environment
-USERNAME = twof-naty-go
+INVOCATION_ID = 6c3ad9e0d9e84a6abd2bda2c303bb5fd
 # environment
-GNOME_SETUP_DISPLAY = :1
+USERNAME = naty-2f
 # environment
 LC_TELEPHONE = am_ET
 # environment
@@ -159,21 +167,27 @@ ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-LOGNAME = twof-naty-go
+LOGNAME = naty-2f
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3565
+SYSTEMD_EXEC_PID = 3542
 # environment
-DISPLAY = :0
+DISPLAY = :1
 # environment
-USER = twof-naty-go
+USER = naty-2f
 # environment
 GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
+MANAGERPID = 1815
+# environment
 LC_MEASUREMENT = am_ET
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3577
 # environment
 _ = /usr/bin/code
 # environment
@@ -181,23 +195,29 @@ LC_PAPER = am_ET
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
 COLORTERM = truecolor
+# environment
+JOURNAL_STREAM = 8:32434
+# environment
+GOMODCACHE = /home/naty-2f/go/pkg/mod
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/twof-naty-go
+HOME = /home/naty-2f
 # environment
 QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-13b6b31f-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2a1f71d4-1.70.2-main.sock
 # environment
 TERM = xterm-256color
 # environment
-IM_CONFIG_PHASE = 1
+GOPROXY = https://proxy.golang.org,direct
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -219,7 +239,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = am_ET
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=10/133=8%
+# Load=113/1024=11%, Rehash=0, Collisions=11/143=8%
 
 # Pattern-specific Variable Values
 
@@ -227,9 +247,9 @@ LC_IDENTIFICATION = am_ET
 
 # Directories
 
-# . (device 2050, inode 27266964): 10 files, no impossibilities.
+# . (device 2051, inode 5640272): 14 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -248,7 +268,7 @@ migratedown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-19 22:16:05.993141381
+#  Last modified 2022-07-27 09:19:58.571936
 #  File has been updated.
 #  Successfully updated.
 
@@ -275,6 +295,7 @@ migrateup:
 #  File has not been updated.
 
 # Not a target:
+ 
 all:
 #  Command line target.
 #  Implicit rule search has been done.
@@ -298,7 +319,6 @@ sqlc:
 	sqlc generate
 
 postgres:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -327,12 +347,12 @@ createdb:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 188 B / avg = 8 B
-# current buf: size = 8162 B / used = 188 B / count = 23 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 225 B / avg = 8 B
+# current buf: size = 8162 B / used = 225 B / count = 27 / avg = 8 B
 
-# strcache performance: lookups = 42 / hit rate = 45%
+# strcache performance: lookups = 46 / hit rate = 41%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Wed Jul 27 08:33:16 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Mon Sep  5 15:18:22 2022
 
  

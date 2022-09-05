@@ -1,7 +1,7 @@
 version: 1
 packages:
-  - path: "./db/sqlc"
-    name: "db"
+  - name: "db"
+    path: "./db/sqlc"
     engine: "postgresql"
     schema: "./db/migration"
     queries: "./db/query"
