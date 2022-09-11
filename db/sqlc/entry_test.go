@@ -10,9 +10,10 @@ import (
 )
 
 func CreateEntry(t *testing.T) Entry {
+	account := createRandAccount(t)
 	arg := CreateEntryParams{
 		Amount:    utils.RandomAmount(),
-		AccountID: utils.RandomID(),
+		AccountID: account.ID,
 	}
 
 	entry, err := testQueries.CreateEntry(context.Background(), arg)
