@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Sep  5 15:18:22 2022
+# Make data base, printed on Sun Sep 11 07:41:32 2022
 
 # Variables
 
@@ -16,8 +16,6 @@ make: *** No rule to make target 'all'.  Stop.
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -29,7 +27,7 @@ LC_NAME = am_ET
 # environment
 LC_NUMERIC = am_ET
 # environment
-VSCODE_CWD = /home/naty-2f/Documents/exercise/exercises/simplebank
+VSCODE_CWD = /home/naty-2f
 # environment
 WINDOWPATH = 2
 # environment
@@ -47,19 +45,17 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/naty-2f/Documents/exercise/exercises/simplebank
+PWD = /home/naty-2f/Documents/exercise/simplebank
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/naty-2f/Documents/exercise/exercises
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/naty-2f/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /home/naty-2f/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LANG = C
 # environment
@@ -68,12 +64,10 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.102
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/naty-2f/Documents/exercise/exercises/simplebank
+CURDIR := /home/naty-2f/Documents/exercise/simplebank
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -97,13 +91,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3577
+VSCODE_PID = 3185
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/naty-2f-laptop:@/tmp/.ICE-unix/2315,unix/naty-2f-laptop:/tmp/.ICE-unix/2315
+SESSION_MANAGER = local/naty-2f-laptop:@/tmp/.ICE-unix/2050,unix/naty-2f-laptop:/tmp/.ICE-unix/2050
 # automatic
 *F = $(notdir $*)
 # environment
@@ -127,15 +121,13 @@ XMODIFIERS = @im=ibus
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-SHLVL = 1
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/61fed391_e6ed_4903_84c4_017a07c25a56
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/naty-2f/go/bin:$(go env GOPATH)/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+PATH = /home/naty-2f/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:$(go env GOPATH)/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/usr/local/go/bin:/usr/local/go/bin
 # default
 MAKEFILES := 
 # environment
@@ -145,7 +137,7 @@ LC_MONETARY = am_ET
 # environment
 LC_TIME = am_ET
 # environment
-INVOCATION_ID = 6c3ad9e0d9e84a6abd2bda2c303bb5fd
+INVOCATION_ID = 9ddaf92cd5f641b0b55e079abbf60ede
 # environment
 USERNAME = naty-2f
 # environment
@@ -157,7 +149,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -173,7 +165,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-SYSTEMD_EXEC_PID = 3542
+SYSTEMD_EXEC_PID = 2113
 # environment
 DISPLAY = :1
 # environment
@@ -183,13 +175,13 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1815
+MANAGERPID = 1589
 # environment
 LC_MEASUREMENT = am_ET
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3577
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3185
 # environment
-_ = /usr/bin/code
+_ = /usr/share/code/code
 # environment
 LC_PAPER = am_ET
 # environment
@@ -197,9 +189,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-COLORTERM = truecolor
-# environment
-JOURNAL_STREAM = 8:32434
+JOURNAL_STREAM = 8:36234
 # environment
 GOMODCACHE = /home/naty-2f/go/pkg/mod
 # environment
@@ -213,9 +203,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-2a1f71d4-1.70.2-main.sock
-# environment
-TERM = xterm-256color
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2a1f71d4-1.71.0-main.sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -224,12 +212,6 @@ GOPROXY = https://proxy.golang.org,direct
 <F = $(notdir $<)
 # default
 SUFFIXES := 
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-VTE_VERSION = 6800
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
@@ -239,7 +221,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = am_ET
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=11/143=8%
+# Load=104/1024=10%, Rehash=0, Collisions=4/134=3%
 
 # Pattern-specific Variable Values
 
@@ -295,7 +277,6 @@ migrateup:
 #  File has not been updated.
 
 # Not a target:
- 
 all:
 #  Command line target.
 #  Implicit rule search has been done.
@@ -324,6 +305,7 @@ postgres:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
+ 
 	docker run --name postgres14 -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:alpine3.16
 
 createdb:
@@ -353,6 +335,6 @@ createdb:
 # strcache performance: lookups = 46 / hit rate = 41%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Mon Sep  5 15:18:22 2022
+# Finished Make data base on Sun Sep 11 07:41:32 2022
 
  
